@@ -1,2 +1,4 @@
 # Qbit-Translator
-Introduction: Qbit Translator is a lightweight translation software with Google's API,which is my first project.
+Qbit Translator is a lightweight translation software with Google's API,which is my first project.
+
+#Version Beta-01
