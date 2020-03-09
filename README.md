@@ -1,4 +1,4 @@
-![icon](https://imgchr.com/i/89YeZn)   
+![icon](https://s2.ax1x.com/2020/03/09/89YeZn.png)   
 # 小Q翻译器  
 ![版本号](https://img.shields.io/badge/Version-Beta--0.0.1-blue)  
 
