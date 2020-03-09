@@ -1,4 +1,5 @@
-![icon](http://chuantu.xyz/t6/723/1583753458x1031866013.png) # 小Q翻译器  
+![icon](http://chuantu.xyz/t6/723/1583753458x1031866013.png)   
+# 小Q翻译器  
 ![版本号](https://img.shields.io/badge/Version-Beta--0.0.1-blue)  
 
 ### 简介:
