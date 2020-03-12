@@ -1,6 +1,6 @@
 ![icon](https://s2.ax1x.com/2020/03/09/89YeZn.png)   
 # 小Q翻译器  
-![版本号](https://img.shields.io/badge/Version-Beta--0.0.1-blue)  
+![版本号](https://img.shields.io/badge/Version-Beta--0.0.2-blue)  ![作者](https://img.shields.io/badge/Author-Xzy-orange)
 
 ### 简介:
 * `小Q翻译器是一个用Python编写的轻量级翻译软件，使用谷歌API，也是我的第一个项目。`
