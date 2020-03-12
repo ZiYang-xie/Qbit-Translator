@@ -10,6 +10,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from lang import *
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -222,3 +223,9 @@ class Ui_MainWindow(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "近义词"))
         self.label.setText(_translate("MainWindow", "翻译模式"))
         self.Search_text.setPlaceholderText(_translate("MainWindow", " 请输入您要查询的内容"))
+
+    def update_message(self, MainWindow):
+        self.update_message = QtWidgets.QMessageBox(MainWindow)
+        choice =self.update_message.question(None, "检查更新-Update_Check","有最新的版本更新，请检查更新。"+"\n"+"There is new version released,Please check.",self.update_message.Ok | self.update_message.Cancel)
+        self.update_message.setObjectName("update_message")
+        return choice

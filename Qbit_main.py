@@ -5,8 +5,11 @@ from PyQt5.QtGui import *
 from function import *
 from UI import *
 from lang import *
+from update import *
+import webbrowser
 
 class myWin(QtWidgets.QWidget, Ui_MainWindow):
+
     def __init__(self):
         super(myWin, self).__init__()
         self.setupUi(self)
@@ -14,6 +17,10 @@ class myWin(QtWidgets.QWidget, Ui_MainWindow):
         icon.addPixmap(QtGui.QPixmap("Qbit_logo_trans.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.setWindowIcon(icon)
         self.setFixedSize(self.width(), self.height())
+        if(update_check()):
+            choice = self.update_message(self)
+            if(choice == self.update_message.Ok):
+                webbrowser.open(github_url)
         self.Search_text.returnPressed.connect(self.on_Search_button_clicked)
         self.Search_button.clicked.connect(self.on_Search_button_clicked)
         self.comboBox.currentIndexChanged.connect(self.on_comboBox_currentIndexChanged)
