@@ -217,7 +217,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "小Q开源翻译器-Beta-V1"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "小Q翻译器-Beta-V0.0.2"))
         self.Search_button.setText(_translate("MainWindow", "查   询"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "   释义   "))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "近义词"))
