@@ -13,8 +13,8 @@ def update_check():
     try:
         header = {'User-agent':'Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.3'}
         all_info = requests.get(api_url,headers=header,timeout=10).json()
-    except ConnectionError as e:
-        print('网络连接异常\n'+e.reason)
+    except:
+        return False
     try:
         with open('./updatetime.txt','r') as f:
             old_time = f.read()
