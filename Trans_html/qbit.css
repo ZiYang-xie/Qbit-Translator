@@ -1,0 +1,32 @@
+﻿.main_trans{
+    display: inline-block;
+	font-family:"等线"
+}
+
+.more_trans{
+	font-family:"等线"
+}
+
+.pos{
+	font-family:"等线"
+	vertical-align: middle;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+	vertical-align: middle;
+}
+
+.audio {
+    content: url("./audio_pic/audio_button.png");
+}
+
+.audio:hover {
+    content: url("./audio_pic/audio_button_hover.png");
+    cursor:pointer;
+}
+
+.audio-onclick {
+    content: url("./audio_pic/audio_onclick.gif");
+}
