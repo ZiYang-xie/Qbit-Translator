@@ -1,4 +1,4 @@
-import uuid
+﻿import uuid
 import sys
 import json
 IS_PY3 = sys.version_info.major == 3
@@ -13,8 +13,8 @@ def get_mac_address():
     mac = uuid.UUID(int = node).hex[-12:]
     return mac
 
-API_KEY = "GzXWzzIky5aqQwI4GdcZbDTX"
-SECRET_KEY = "rm2MrFfmdxLbLp6PRRL1Ry2ik8Rw7nKx"
+API_KEY = ""
+SECRET_KEY = ""
 
 TTS_URL = "http://tsn.baidu.com/text2audio" # 语音合成API #
 TOKEN_URL = 'http://openapi.baidu.com/oauth/2.0/token' # 获取token-API #
